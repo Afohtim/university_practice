@@ -66,4 +66,4 @@ train = model.fit(X_train, Y_train, validation_data=(X_test, Y_test), epochs=5, 
 scores = model.evaluate(X_test, Y_test, verbose=0)
 print("CNN Error: %.2f%%" % (100-scores[1]*100))
 
-model.save('weights3.model')
+model.save('weights.model')

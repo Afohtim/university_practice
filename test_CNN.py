@@ -5,7 +5,7 @@ import numpy as np
 
 gray = lambda rgb : np.dot(rgb[... , :3] , [0.299 , 0.587, 0.114])
 
-model = load_model('weights2.model')
+model = load_model('final_weights.model')
 model.summary()
 
 for i in range(26):
